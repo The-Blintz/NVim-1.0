@@ -1,4 +1,4 @@
-"call plug#begin('~/.local/shar/nvim/plugged')
+" call plug#begin('~/.local/shar/nvim/plugged')
 call plug#begin(stdpath('data').'/plugged')
 "themes
 " Plug 'morhetz/gruvbox'

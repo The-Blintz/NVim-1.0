@@ -6,6 +6,7 @@ set expandtab
 set smartindent
 set numberwidth=1
 set number
+set number relativenumber
 set rnu
 set noswapfile
 set incsearch
@@ -15,9 +16,14 @@ set ignorecase
 set cursorline
 set splitbelow
 set splitright
-"set guicursor=i:ver25-iCursor
-
-"set colorcolumn=120
+set guicursor=i:ver25-iCursor
+set path+=**
+set smarttab
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartcase
+set colorcolumn=150
 
 " Python virtual environment detection in linux
 let g:loaded_python_provider = 0

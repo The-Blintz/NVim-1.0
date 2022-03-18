@@ -1,10 +1,3 @@
-
-"highlight ColoColumn ctermbg=0 guibg=lightgrey
-
-let g:python3_host_prog = '/usr/bin/python3'
-
-let mapleader = " "
-
 "Theme
 if (has('termguicolors'))
   set termguicolors
