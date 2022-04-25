@@ -25,6 +25,7 @@ set expandtab
 set smartcase
 set colorcolumn=150
 
+
 " Python virtual environment detection in linux
 let g:loaded_python_provider = 0
 " Ruta donde se creó el ambiente de Python con pipenv.

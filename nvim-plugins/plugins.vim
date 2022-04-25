@@ -45,5 +45,24 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rhysd/vim-clang-format'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
+" Vim-Plug
+  Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+ " For async completion
+  Plug 'Shougo/deoplete.nvim'
+ " For Denite features
+  Plug 'Shougo/denite.nvim'
+
+  Plug 'neovim/nvim-lspconfig'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
+
+Plug 'billyvg/node-host', { 'do': 'npm install' }
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install && npm install -g tern' }
 
 call plug#end()

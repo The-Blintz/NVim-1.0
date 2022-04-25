@@ -43,7 +43,7 @@ let g:ctrlp_use_caching = 0
 let g:NERDTreeChDirMode = 2 "Cambia el directorio actual al nodo padre actual
 let NERDTreeShowHidden=1
 map <space>. :NERDTreeToggle<CR>
-
+nmap <Leader>, :NERDTreeFocus<cr>R<c-w><c-p>
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
 

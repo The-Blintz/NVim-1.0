@@ -4,7 +4,7 @@ if (has('termguicolors'))
 endif
 
 "let g:python_highlight_all = 1
-let g:material_theme_style = 'ocean'
+let g:material_theme_style = 'palenight'
 "set termguicolors
 "set background=dark
 " let ayucolor="dark"
